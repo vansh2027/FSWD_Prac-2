@@ -1,4 +1,4 @@
-# Lab-2 : Task Reminder System
+# Prac-2 : Task Reminder System
 
 <ins> Objective:</ins> Build a task reminder system that schedules reminders and handles asynchronous delays.
 
