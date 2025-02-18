@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Reminder System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Task Reminder System</h1>
+    </header>
+
+    <section id="notifications"></section>
+
+    <form id="taskForm" class="task-form">
+      <input type="text" id="title" placeholder="Task Title" required>
+      <input type="number" id="dueTime" placeholder="Due Time (minutes)" required>
+      <fieldset class="priority">
+        <legend>Priority</legend>
+        <label><input type="radio" name="priority" value="High"> High</label>
+        <label><input type="radio" name="priority" value="Medium"> Medium</label>
+        <label><input type="radio" name="priority" value="Low"> Low</label>
+      </fieldset>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <section id="taskLists">
+      <div class="task-section">
+        <h2>Urgent Tasks (Next 10 Minutes)</h2>
+        <div id="urgentTaskList" class="task-list"></div>
+      </div>
+      <div class="task-section">
+        <h2>Later Tasks</h2>
+        <div id="laterTaskList" class="task-list"></div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
