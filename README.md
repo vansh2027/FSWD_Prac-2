@@ -24,4 +24,4 @@ Add a feature to delete tasks.
 
 Implement a priority-based notification system where “High” priority tasks are reminded sooner.
 
-Build a user interface for the system using HTML and CSS.
+Build a user interface for the system using HTML and CSS
